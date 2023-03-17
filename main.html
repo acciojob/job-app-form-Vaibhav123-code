@@ -10,10 +10,10 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form action="" method="">
+	<form action="" method="POST">
    <label for="name"> Name*</label>
-	<input type='text' name='theinput' id='name' required/>
-	<label for="Email"> Email*</label>
+	<input type='text' name='name' id='name' required/>
+	<label for="email"> Email*</label>
 	<input type='email' name='email' id='email' required/>
  
 	 <legend>Gender*</legend>
@@ -25,18 +25,21 @@
 	 </div>
 	<p>Laptop Brand:
         <select name="card type" id="card type">
-            <option value="">--Select a brand--</option>
             <option value="Apple" >Apple</option>
             <option value="Asus">Asus</option>
             <option value="HP">HP</option>
         </select>
 		 </p>
-		<label for="Age"> Age*</label>
-	<input type='number' name='age' id='age' required
-		<label for="DOB"> DOB*</label>
+		<label for="age"> Age*</label>
+	<input type='number' name='age' id='age' required>
+		
+	<label for="DOB"> DOB*</label>
 	<input type='date' name='DOB' id='dob' required/>
 	<label for="Password"> Password*</label>
 	<input type='password' name='password' id='password' required/>
+
+	<label for="portfolio"> Portfolio*</label>
+	<input type='url' name="portfolio" id='portfolio' required/>
 	<input type="submit" value="pay now">
 	
    
